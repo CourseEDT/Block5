@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bfd30f8-dbec-45c6-ad68-d9a1d1de9ec2">
+  <producedTypes>
+    <objectType typeId="0742ad3b-aadd-4886-902d-4a6081606108" valueTypeId="4ee0b72e-b691-41f6-9f31-2988bce5c5c5"/>
+    <managerType typeId="e67005d3-d5ca-4a70-a3ff-76ac3cb24789" valueTypeId="d6ad0cc7-8232-46b3-bbc6-35a0b7fa800f"/>
+  </producedTypes>
+  <name>КонсольЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль запросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольЗапросов.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.КонсольЗапросов.Form.Форма</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="35f1b7d6-2f40-4dc9-928f-ddb1b9f9c555">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4c80df1-bee3-445c-af15-5467495a294e">
+    <name>ФормаВложеннойТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вложенной таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ca34be6-caea-4aad-8dc6-ab195924973c">
+    <name>ФормаОсобогоТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма особого типа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2bdec45c-bd9f-4a3a-a013-7abe72e89926">
+    <name>МакетРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет результата</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>
